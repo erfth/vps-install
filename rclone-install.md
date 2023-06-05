@@ -3,9 +3,21 @@ my rclone install steps
 
 
 ## Installation
+
+#### Step 1
 ```
 apt update -y && apt upgrade -y
 apt install wget unzip screen fuse
+```
+#### Step 2
+
+To install rclone on Linux/macOS/BSD systems, run:
+```
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
+```
+For beta installation, run:
+```
+sudo -v ; curl https://rclone.org/install.sh | sudo bash -s beta
 ```
 
 ## Rclone config
