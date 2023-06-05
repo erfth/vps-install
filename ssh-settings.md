@@ -3,7 +3,7 @@
 ssh-keygen -t ed25519 -C "user@host or email"
 
 
-# creatin a SSH config-file for easy access to your remote servers
+# creating a SSH config-file for easy access to your remote servers
 create a new file with the name _config_ in the .ssh folder of your host and copy&paste the follow lines 
 
 ```
